@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include "Casa.hpp"
+#include <tuple>
 
 /** 
  * Esta classe representa uma rua, com dois lados A e B usando a forma snake_case (padrão do c++).
@@ -13,15 +14,16 @@
  */
 class rua{
 
-    enum lado_rua{
-        LADO_A,
-        LADO_B
-    };
+    public:
+        enum lado_rua{
+            LADO_A,
+            LADO_B
+        };
 
     private:
         std::string m_nome; //<! uma string com o nome da rua
         std::string m_CEP; //<! uma string no formato XX-XXX-XXX
-        std::vector<Casa*> m_A, m_B; //<! containers contendo um conjunto de casas em cada lado da Rua
+        std::vector<Casa*> m_lado_a, m_lado_b; //<! containers contendo um conjunto de casas em cada lado da Rua
 
     public:
         /**
@@ -63,10 +65,11 @@ class rua{
 
         /**
          * Retorna o endereço da casa de uma pessoa com número passado. 
-         * O endereço é formatado segundo o formato: Rua <nome>, No. <numero_casa>, Cep: <CEP>. Esta função retorna uma string
-         * vazia se o nome procurado não pertencer a nenhuma casa da rua.
+         * O endereço é formatado segundo o formato: <nome_rua>, Cep: <cep>; Casa No. <numero>, Área: <const> / <tot> m2; Lado <lado>.
+         * ex:  Rua Osvaldo Montenegro, Cep: 59-513-491; Casa No. 3, Área: 250.20 / 300 m2; Lado B
+         * Esta função retorna uma string vazia se o nome procurado não pertencer a nenhuma casa da rua.
          * @param nome o nome de algum dono de alguma casa da rua
-         * @return o endereço no formato: Rua <nome>, No. <numero_casa>, Cep: <CEP>
+         * @return o endereço no formato:<nome_rua>, Cep: <cep>; Casa No. <numero>, Área: <const> / <tot> m2; Lado <lado>.
          **/
         std::string endereco(int numero);
 

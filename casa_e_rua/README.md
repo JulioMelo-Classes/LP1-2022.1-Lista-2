@@ -44,31 +44,42 @@ Usando as classes implementadas escreva um programa que lê da entrada padrão, 
 de linhas contendo o lado da casa, a área ocupada e total e o estado, ocupada ou desocupada.
 
 ```
-Osvaldo Montenegro
-59-513-491
-A
-150.20 190
-ocupada
+Rua do Comércio 126
+57-515-970
 B
-200 220
-ocupada
-A
-250 280
-ocupada
-B
-250.20 300
+245.85 311.20
 desocupada
+A
+176.74 210.40
+ocupada
+A
+235.20 280.00
+ocupada
+A
+224.20 236.00
+ocupada
+A
+193.80 258.40
+ocupada
 ```
 
 O programa deverá então imprimir o endereço e área de todas as casas que são desocupadas
 bem como seus vizinhos (esquerda, direita e frente).
 
 ```
-Rua Osvaldo Montenegro, No. 3, Cep: 59-513-491; Área: 250.20 / 300 m2
+Casas Desocupadas
+Rua do Comércio 126, 57-515-970, Casa no. 1, Área: 245.85 / 311.20, lado B
 Vizinhos
-Esquerda: Rua Osvaldo Montenegro, No. 1, Cep: 59-513-491; Ocupada; Área: 200 / 220 m2
-Direita: Nennhum
-Frente: Rua Osvaldo Montenegro, No. 2, Cep: 59-513-491; Ocupada; Área: 250 / 280 m2
+Frente: Rua do Comércio 126, 57-515-970, Casa no. 0, Área: 176.74 / 210.40, lado A (ocupada)
+Esquerda: <nenhum>
+Direita: <nenhum>
+```
+
+Caso não hajam casas de desocupadas a saída será apenas:
+
+```
+Casas Desocupadas
+<nenhuma>
 ```
 
 ## Executando os testes

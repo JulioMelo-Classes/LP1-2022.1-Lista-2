@@ -12,16 +12,18 @@
 class Casa{
     
     private:
-        int numero; //!< número da casa. O número deve ser setado pela classe Rua.
-        double areaConstruida; //!< áera construída da casa
-        double areaTotal; //!< áera total do terreno
-        bool ocupada; //!< indica se a casa está ocupada ou não
+        int m_numero; //!< número da casa. O número deve ser setado pela classe Rua.
+        double m_areaConstruida; //!< áera construída da casa
+        double m_areaTotal; //!< áera total do terreno
+        bool m_ocupada; //!< indica se a casa está ocupada ou não
     
     public:
         /**
          * Construtor da classe casa.
+         * @param areaConstruida a área construida da casa
+         * @param areaTotal a area total do terreno
          */
-        Casa(double area_construida, double area_total);
+        Casa(double areaConstruida, double areaTotal);
 
         /**
          * Getter do número da casa.
@@ -46,6 +48,12 @@ class Casa{
          * @return T se ocupada, F caso contrário.
          */
         bool isOcupada();
+
+        /**
+         * Retorna uma representação de string da Casa no formato Área: area_ocupada / areaConstruida m2
+         * @return a representação em string da casa.
+         */
+        std::string toString();
 
 };
 #endif

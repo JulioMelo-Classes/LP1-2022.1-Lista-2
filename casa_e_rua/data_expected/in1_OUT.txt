@@ -1,16 +1,6 @@
-Ssanyu Humbert - Rua Osvaldo Montenegro, No. 0, Cep: 59-513-491
+Casas Desocupadas
+Rua do Comércio 126, 57-515-970, Casa no. 1, Área: 245.85 / 311.20, lado B
 Vizinhos
-Maree Christina
-Carina Nekesa - Rua Osvaldo Montenegro, No. 1, Cep: 59-513-491
-Vizinhos
-João Evangeline
-Maree Christina - Rua Osvaldo Montenegro, No. 2, Cep: 59-513-491
-Vizinhos
-Ssanyu Humbert
-Wilhelm Nan
-João Evangeline - Rua Osvaldo Montenegro, No. 3, Cep: 59-513-491
-Vizinhos
-Carina Nekesa
-Wilhelm Nan - Rua Osvaldo Montenegro, No. 4, Cep: 59-513-491
-Vizinhos
-Maree Christina
+Frente: Rua do Comércio 126, 57-515-970, Casa no. 0, Área: 176.74 / 210.40, lado A (ocupada)
+Esquerda: <nenhum>
+Direita: <nenhum>

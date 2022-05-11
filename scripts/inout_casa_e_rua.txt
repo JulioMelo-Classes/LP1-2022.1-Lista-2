@@ -1,100 +1,106 @@
-Osvaldo Montenegro
-59-513-491
-Ssanyu Humbert
-A
-Carina Nekesa
+Rua do Comércio 126
+57-515-970
 B
-Maree Christina
+245.85 311.20
+desocupada
 A
-João Evangeline
-B
-Wilhelm Nan
+176.74 210.40
+ocupada
 A
+235.20 280.00
+ocupada
+A
+224.20 236.00
+ocupada
+A
+193.80 258.40
+ocupada
 ;
-Ssanyu Humbert - Rua Osvaldo Montenegro, No. 0, Cep: 59-513-491
+Misael Mendonça, 85-803-230, Casa no. 1, Área: 195.84 / 230.40, lado B
 Vizinhos
-Maree Christina
-Carina Nekesa - Rua Osvaldo Montenegro, No. 1, Cep: 59-513-491
-Vizinhos
-João Evangeline
-Maree Christina - Rua Osvaldo Montenegro, No. 2, Cep: 59-513-491
-Vizinhos
-Ssanyu Humbert
-Wilhelm Nan
-João Evangeline - Rua Osvaldo Montenegro, No. 3, Cep: 59-513-491
-Vizinhos
-Carina Nekesa
-Wilhelm Nan - Rua Osvaldo Montenegro, No. 4, Cep: 59-513-491
-Vizinhos
-Maree Christina
+Misael Mendonça, 85-803-230, Casa no. 0, Área: 164.74 / 228.80, lado A (ocupada)
+Misael Mendonça, 85-803-230, Casa no. 3, Área: 230.40 / 256.00, lado B (ocupada)
 ;
 José Vidal 91
 58-748-970
-Luella Kabelo
 A
-Marvyn Lottie
+214.72 244.00
+ocupada
 A
-Olaf Charlotte
+167.96 176.80
+ocupada
 A
-Diggory Grenville
+219.46 304.80
+desocupada
 B
+135.49 185.60
+ocupada
+B
+260.06 309.60
+desocupada
+A
+146.61 190.40
+ocupada
+A
+187.70 237.60
+ocupada
+A
+207.78 241.60
+ocupada
+A
+209.50 240.80
+ocupada
+B
+192.10 208.80
+ocupada
 ;
-Luella Kabelo - Rua José Vidal 91, No. 0, Cep: 58-748-970
-Vizinhos
-Marvyn Lottie
-Marvyn Lottie - Rua José Vidal 91, No. 2, Cep: 58-748-970
-Vizinhos
-Luella Kabelo
-Olaf Charlotte
-Olaf Charlotte - Rua José Vidal 91, No. 4, Cep: 58-748-970
-Vizinhos
-Marvyn Lottie
-Diggory Grenville - Rua José Vidal 91, No. 1, Cep: 58-748-970
-Vizinhos
-Nenhum
+teste
 ;
 Misael Mendonça
 85-803-230
-Chikere Johann Baptist
 A
-Neely Bennie
+164.74 228.80
+ocupada
 B
+195.84 230.40
+desocupada
+B
+230.40 256.00
+ocupada
 ;
-Chikere Johann Baptist - Rua Misael Mendonça, No 0, Cep: 85-803-230
-Vizinhos
-Nenhum
-Neely Bennie - Rua Misael Mendonça, No 1, Cep: 85-803-230
-Vizinhos
-Nenhum
+teste
 ;
-Vila Juanci
-60-542-580
-Cheyanne Gerry
-B
-Homer Savannah
-B
-Royce Peg
-B
-Katriona Finn
-B
-Elvina Uduak
-B
+Rua Santa Terezinha
+29-114-002
+A
+253.42 269.60
+ocupada
+A
+158.78 178.40
+desocupada
 ;
-Cheyanne Gerry - Rua Vila Juanci, No 1, Cep: 85-803-230
-Vizinhos
-Homer Savannah
-Homer Savannah - Rua Vila Juanci, No 3, Cep: 85-803-230
-Vizinhos
-Cheyanne Gerry
-Royce Peg
-Royce Peg - Rua Vila Juanci, No 5, Cep: 85-803-230
-Vizinhos
-Homer Savannah
-Katriona Finn
-Katriona Finn - Rua Vila Juanci, No 7, Cep: 85-803-230
-Vizinhos
-Royce Peg
-Elvina Uduak
-Elvina Uduak - Rua Vila Juanci, No 9, Cep: 85-803-230
-Vizinhos
-Katriona Finn
+teste
+;
+Rua Chico Reis
+76-821-344
+B
+230.38 264.80
+ocupada
+A
+140.45 184.80
+ocupada
+B
+142.85 198.40
+ocupada
+A
+186.65 242.40
+ocupada
+B
+239.55 315.20
+desocupada
+B
+176.40 235.20
+ocupada
+;
+teste
+;
