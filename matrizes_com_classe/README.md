@@ -44,8 +44,7 @@ Resultado A add B
 M1 2 2
 1 1
 1 2
-mue
-3
+mue 3
 dot
 M3 2 1
 1
@@ -69,8 +68,7 @@ Resultado M1 mue 3 dot M3 mul M4
 M1 2 2
 1 1
 1 2
-mue
-E 3
+mue 3
 dot
 M3 3 3
 1 2 1
@@ -83,7 +81,7 @@ M4 2 1
 ```
 **Saída esperada:**
 ```
-Resultado M1 mue E dot M3 pôde ser calculado, resultado até aqui:
+Resultado M1 mue 3 dot M3 pôde ser calculado, resultado até aqui:
 3 3
 3 6
 ```
