@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(all_any_none VERSION 0.1 LANGUAGES CXX )
+project("Matrizes com Classe" VERSION 0.1 LANGUAGES CXX )
 
 # set the compiling flags
 set ( CMAKE_CXX_FLAGS "-Wall" )
@@ -24,12 +24,12 @@ add_executable( ${EXEC_NAME}
                 src/main.cpp
                 src/Matriz.cpp )
 
-# define C++11 standard
-set_property(TARGET all_tests PROPERTY CXX_STANDARD 11)
+# define C++14 standard
+set_property(TARGET ${EXEC_NAME} PROPERTY CXX_STANDARD 14)
 
 add_custom_target(
-    run_tests
-    COMMAND python3 ${CMAKE_SOURCE_DIR}/../scripts/verify-inputs.py ./${APP_NAME}
+    verify
+    COMMAND python3 ${CMAKE_SOURCE_DIR}/../scripts/verify-inputs.py ./${EXEC_NAME}
     DEPENDS ${EXEC_NAME}
 )
 
