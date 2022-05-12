@@ -82,4 +82,7 @@ cmake ..
 cmake --build . --target program
 ```
 
-**Importante**: Lembre de adicionar os .cpp das classes que você tenha criado no [CMakeLists.txt](./CMakeLists.txt)
+## Importante
+
+1. Atente que, nesta questão, você precisa documentar os .h seguindo o formato doxygen apresentado na questão [casa_e_rua](../casa_e_rua)
+2. Lembre de adicionar os .cpp das classes que você tenha criado no [CMakeLists.txt](./CMakeLists.txt)
