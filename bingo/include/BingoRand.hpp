@@ -33,7 +33,7 @@ class BingoRand{
          * @param n o tamanho do vetor retornado desejado
          * @return um vetor com min(abs(a - b), n) inteiros aleatórios diferentes.
          **/
-        static std::vector<int> BingoRand::getNDifferent(int a, int b, int n);
+        static std::vector<int> getNDifferent(int a, int b, int n);
 
 };
 

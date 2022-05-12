@@ -23,7 +23,7 @@ std::vector<int> BingoRand::getNDifferent(int a, int b, int n){
     std::vector<int> ret;
     int retsize = std::min(abs(a-b),n);
     /*sorteia até preencher o vetor*/
-    while(ret.size() != retsize){
+    while((int)ret.size() != retsize){
         int num = BingoRand::rand(a,b);
         if(std::find(ret.begin(), ret.end(), num) == ret.end())
             ret.push_back(num);
