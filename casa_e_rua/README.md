@@ -13,8 +13,7 @@ por _agregarem_ outros objetos de outros tipos. Um exemplo simples dessa constru
     - Area Construída e Área Total, do tipo double, contendo os valores das áreas do terreno e construída das casas.
     - Ocupada, do tipo booleano, indicando se a casa está ou não ocupada.
 - Implemente ainda os seguintes métodos na classe casa:
-    - `Casa(double area_construida, double area_total)`: construtor com nome do dono da casa, o número deve ser inicializado com -1, e a casa deve estar
-    desocupada.
+    - `Casa(double area_construida, double area_total)`: construtor com a área construída e área total, o número deve ser inicializado com -1, e a casa deve estar desocupada.
     - `int getNumero() e void setNumero(int n)`: retorna/modifica o número da casa.
     - `bool isOcupada() e void setOcupada(bool ocupada)`: retorna/modifica o estado da casa.
 
