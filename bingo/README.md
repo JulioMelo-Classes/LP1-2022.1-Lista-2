@@ -1,4 +1,4 @@
-# Bingo (de Palavras)!
+# Bingo!
 
 O jogo de bingo consiste num globo contendo um conjunto de bolas numeradas de 1 à 99, sorteadas uma a uma. Os jogadores recebem uma quantidade de números
 fixa em uma "Cartela" e devem marcar os números que foram sorteados. O jogo termina quando um jogador completa uma cartela inteira.
