@@ -50,7 +50,7 @@ class Casa{
         bool isOcupada();
 
         /**
-         * Retorna uma representação de string da Casa no formato Área: area_ocupada / areaConstruida m2
+         * Retorna uma representação de string da Casa no formato Área: area_ocupada / areaConstruida
          * @return a representação em string da casa.
          */
         std::string toString();
