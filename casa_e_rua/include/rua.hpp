@@ -65,11 +65,11 @@ class rua{
 
         /**
          * Retorna o endereço da casa de uma pessoa com número passado. 
-         * O endereço é formatado segundo o formato: <nome_rua>, Cep: <cep>; Casa No. <numero>, Área: <const> / <tot> m2; Lado <lado>.
-         * ex:  Rua Osvaldo Montenegro, Cep: 59-513-491; Casa No. 3, Área: 250.20 / 300 m2; Lado B
+         * O endereço é formatado segundo o formato: <nome_rua>, Cep: <cep>; Casa No. <numero>, Área: <const> / <tot>, Lado <lado>.
+         * ex:  Rua Osvaldo Montenegro, Cep: 59-513-491; Casa No. 3, Área: 245.85 / 311.20, Lado B
          * Esta função retorna uma string vazia se o nome procurado não pertencer a nenhuma casa da rua.
          * @param numero um numero de alguma casa da rua
-         * @return o endereço no formato:<nome_rua>, Cep: <cep>; Casa No. <numero>, Área: <const> / <tot> m2; Lado <lado>.
+         * @return o endereço no formato:<nome_rua>, Cep: <cep>; Casa No. <numero>, Área: <const> / <tot>, Lado <lado>.
          **/
         std::string endereco(int numero);
 
