@@ -63,7 +63,8 @@ ocupada
 ```
 
 O programa deverá então imprimir o endereço e área de todas as casas que são desocupadas
-bem como seus vizinhos (esquerda, direita e frente).
+bem como seus vizinhos (esquerda, direita e frente). A ordem de impressão deve serguir a lógica: iniciando com casas com menor número, e imprimir
+primeiro todas as desocupadas do lado A, depois todas do lado B, 
 
 ```
 Casas Desocupadas
